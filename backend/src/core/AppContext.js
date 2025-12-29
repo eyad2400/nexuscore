@@ -1,6 +1,6 @@
 class AppContext {
-  constructor({ requestId }) {
-    this.requestId = requestId;
+  constructor({ user }) {
+    this.user = user;
   }
 }
 

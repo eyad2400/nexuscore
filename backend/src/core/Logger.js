@@ -1,14 +1,14 @@
 class Logger {
-  static info(message) {
-    console.log(`[INFO] ${message}`);
+  static info(msg) {
+    console.log(`[INFO] ${msg}`);
   }
 
-  static warn(message) {
-    console.warn(`[WARN] ${message}`);
+  static warn(msg) {
+    console.warn(`[WARN] ${msg}`);
   }
 
-  static error(message) {
-    console.error(`[ERROR] ${message}`);
+  static error(msg) {
+    console.error(`[ERROR] ${msg}`);
   }
 }
 

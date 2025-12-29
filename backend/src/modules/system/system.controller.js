@@ -1,10 +1,7 @@
 const service = require('./system.service');
 
 function health(req, res) {
-  const status = service.health();
-  res.json(status);
+  res.json(service.health());
 }
 
-module.exports = {
-  health
-};
+module.exports = { health };
